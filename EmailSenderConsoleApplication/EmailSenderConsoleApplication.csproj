@@ -80,6 +80,9 @@
     <Compile Include="Email\SmtpEmailConfig.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\README.md">
+      <Link>Properties\README.md</Link>
+    </None>
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="PrivateSettings.config" />
