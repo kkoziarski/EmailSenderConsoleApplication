@@ -51,14 +51,5 @@
                 return ConfigurationManager.AppSettings["SendGridPassword"];
             }
         }
-
-        public static string SendGridConfirmationTemplateId
-        {
-            get
-            {
-                return ConfigurationManager.AppSettings["SendGridConfirmationTemplateId"];
-            }
-        }
     }
-
 }

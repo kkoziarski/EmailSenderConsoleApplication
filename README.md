@@ -13,7 +13,6 @@ values in this file overrides values in App.config
     <add key="DefaultEmailTo" value="some@example.com"/>
     <add key="SendGridUserName" value="SECRET_USER_NAME"/>
     <add key="SendGridPassword" value="SECRET_PASSWORD"/>
-    <add key="SendGridConfirmationTemplateId" value="SECRET_EMAIL_TEMPLATE_ID"/>
 </appSettings>  
 ``` 
 
